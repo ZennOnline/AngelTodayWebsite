@@ -28,17 +28,28 @@ header {
 
 /* Effect on social media buttons */
 
-footer a:hover {
-	opacity: .5;
+
+.btn:hover {
+	background-color: #7E8BAB !important;
+	color: #fffcf8;
 }
 
 .btn {
 	background-color: #D9A2A7;
-	color: #7E8BAB;
+	color: #fffcf8;
+}
+
+.btn:visited {
+	background-color: #7E8BAB;
+	color: #fffcf8;
 }
 
 .dropdown-toggle {
 	font-family: Raleway; 
 	border-color: transparent;
 	backgound-color: transparent; 
+}
+
+footer a:hover {
+	opacity: .5;
 }

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <title>Bootstrap Base Template</title>
+  </head>
+  <body>
+
+    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="corporate.html">Corporate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navigation bar -->
+
+
+    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
+      <div class="row">
+        <div class="col-md-8 col-lg-6 mx-auto">
+          <h1 class="fw-light">Hero section</h1>
+          <p class="lead">A short and snappy tagline that makes your reader want to read things from your website.</p>
+          <p>
+            <a href="#" class="btn btn-lg btn-warning">Call to action</a>
+            <a href="#" class="btn btn-lg btn-danger">Another call to action</a>
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- End of hero section -->
+
+    <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
+    <section class="container-fluid p-0">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slide-1.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h3 class="d-none d-md-block">The Horizon Building</h3>
+              <p>
+                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about Horizon</span></a>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide-2.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h3 class="d-none d-md-block">The Ocean Building</h3>
+              <p>
+                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about Ocean</span></a>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/slide-3.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h3 class="d-none d-md-block">The Frontier Building</h3>
+              <p>
+                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about Frontier</span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- End of carrousel -->
+
+    <!-- A grid with cards
+      Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
+      Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
+    -->
+    <main class="container py-4">
+      <div class="row g-3 justify-content-evenly">
+
+        <!-- Card #1 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Card #1</h5>
+              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card #2 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Card #2</h5>
+              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card #3 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Card #3</h5>
+              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card #4 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Card #4</h5>
+              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card #5 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Card #5</h5>
+              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card #6 -->
+        <div class="col-sm-6 col-lg-4 col-xl-3">
+          <div class="card shadow h-100">
+            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title">Card #6</h5>
+              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+            </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- That was the last card -->
+
+      </div>
+    </main>
+    <!-- End of the grid with cards -->
+
+    <!-- A footer with socials -->
+    <footer class="shadow-lg mt-5 py-4 bg-body">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p>
+          © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
+        </p>
+        <ul class="list-unstyled d-flex align-items-center opacity-75">
+          <li>
+            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
+              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
+              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/bredauas" target="_blank">
+              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
+              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
+              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- End of the grid -->
+
+  </body>
+</html>

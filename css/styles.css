@@ -1,0 +1,28 @@
+/* Importing a Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500&display=swap');
+
+/* Changing the main font and background colour */
+
+body {
+	font-family: Raleway, sans-serif;
+	background-color: #fffcf8;
+}
+
+/* Changing the background colour for the header */
+
+header {
+	background-color: #000060;
+}
+
+/* Changing the background color for the navigation bar */
+
+.navbar {
+	background-color: #fff0e0;
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+	opacity: .5;
+}

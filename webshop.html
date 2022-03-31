@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <title>Bootstrap Base Template</title>
+  </head>
+  <body>
+
+    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/AngelLogoRoundPurple.png" width="80" alt="Angel">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Angel
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">About Angel</a></li>
+                <li><a class="dropdown-item" href="#">Become an angel</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Webshop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="corporate.html">Corporate</a>
+            </li>
+
+        </ul>
+        <ul class="list-unstyled d-flex align-items-center opacity-75">
+          <li>
+            <a href="https://www.instagram.com/beanangeltoday/" target="_blank">
+              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@beanangeltoday" target="_blank">
+              <img class="m-2" src="images/tiktok_logo_icon_144802.png" alt="Follow us on Tiktok" width="26">
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navigation bar -->
+
+
+    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
+      <div class="row">
+        <div class="col-md-8 col-lg-6 mx-auto">
+          <h1 class="fw-light">Webshop</h1>
+          <p class="lead">#BeAnAngelToday</p>
+        </div>
+      </div>
+    </header>
+    <!-- End of hero section -->
+
+    <!-- A grid with cards
+      Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
+      Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
+    -->
+    <main class="container py-4">
+      <div class="row g-3 justify-content-evenly">
+  
+        <!-- Card #4 -->
+<div class="card mb-3" style="max-width: 1080px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+		    <section class="container-fluid p-0">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/twitter.svg" class="d-block mx-auto w-100" alt="sweater pink">
+          </div>
+          <div class="carousel-item">
+            <img src="images/linkedin.svg" class="d-block mx-auto w-100" alt="sweater purple">
+          </div>
+          <div class="carousel-item">
+            <img src="images/instagram.svg" class="d-block mx-auto w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Be an ANGEL today - sweater</h5>
+        <p class="card-text">EURO 49,99.</p>
+        <p class="card-text">Keep one for yourself and gift the other to another person and become an angel!</p>
+       
+		<p class="card-text">Select colour of sweater 1:</p>
+		  <button type="button" class="btn1">pink</button>
+		  <button type="button" class="btn2">purple</button>
+		  <button type="button" class="btn3">white</button>	
+		  
+        <p class="card-text">Select size of sweater 1</p>
+		  <button type="button" class="btn3">S</button>
+		  <button type="button" class="btn3">M</button>
+		  <button type="button" class="btn3">L</button>
+		  <button type="button" class="btn3">XL</button>	
+		  
+        <p class="card-text">Select colour of sweater 2:</p>
+		  <button type="button" class="btn1">pink</button>
+		  <button type="button" class="btn3">white</button>	
+		  
+        <p class="card-text">Select size of sweater 2</p>
+		  <button type="button" class="btn3">S</button>
+		  <button type="button" class="btn3">M</button>
+		  <button type="button" class="btn3">L</button>
+		  <button type="button" class="btn3">XL</button>	
+      </div>
+    </div>
+  </div>
+            <div class="card-footer p-2 text-end">
+              <a href="#" class="btn">Add to chart</a>
+            </div>
+</div>
+        <!-- That was the last card -->
+
+      </div>
+    </main>
+    <!-- End of the grid with cards -->
+
+    <!-- A footer with socials -->
+    <footer class="shadow-lg mt-5 py-4 bg-body">
+      <div class="container d-flex justify-content-between align-items-center">
+        <p>
+          © 2021&ndash;2022 &mdash; Be an angel today
+        </p>
+        <ul class="list-unstyled d-flex align-items-center opacity-75">
+          <li>
+            <a href="https://www.instagram.com/beanangeltoday/" target="_blank">
+              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@beanangeltoday" target="_blank">
+              <img class="m-2" src="images/tiktok_logo_icon_144802.png" alt="Follow us on Tiktok" width="26">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- End of the grid -->
+
+  </body>
+</html>

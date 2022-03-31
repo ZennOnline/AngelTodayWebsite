@@ -32,6 +32,7 @@ header {
 .btn:hover {
 	background-color: #7E8BAB !important;
 	color: #fffcf8;
+	opacity: .5;
 }
 
 .btn {
@@ -42,6 +43,65 @@ header {
 .btn:visited {
 	background-color: #7E8BAB;
 	color: #fffcf8;
+	opacity: .5;
+}
+
+.btn1:hover {
+	background-color: #D9A2A7 !important;
+	color: #fffcf8;
+	opacity: .5;
+}
+
+.btn1 {
+	background-color: #D9A2A7;
+	border-color: transparent;
+	color: #fffcf8;
+}
+
+.btn1:visited {
+	background-color: #D9A2A7;
+	color: #fffcf8;
+	border-color: #D9A2A7;
+	opacity: .5;
+}
+
+.btn2:hover {
+	background-color: #7E8BAB !important;
+	color: #fffcf8;
+	opacity: .5;
+}
+
+.btn2 {
+	background-color: #7E8BAB;
+	border-color: transparent;
+	color: #fffcf8;
+}
+
+.btn2:visited {
+	background-color: #7E8BAB;
+	color: #fffcf8;
+	border-color: #7E8BAB;
+	opacity: .5;
+}
+
+.btn3:hover {
+	background-color: #fffcf8 !important;
+	color: #444444;
+	border-color: #444444;
+	opacity: .5;
+}
+
+.btn3 {
+	background-color: #fffcf8;
+	border-color: #444444;
+	color: #444444;
+}
+
+.btn3:visited {
+	background-color: #fffcf8;
+	color: #444444;
+	border-color: #444444;
+	opacity: .5;
 }
 
 .dropdown-toggle {

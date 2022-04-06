@@ -20,7 +20,19 @@ p {
 }
 
 a {
-	color: #525A70;
+	color: #525A70 !important;
+}
+
+h2 {
+	color: #d8a1a6;
+}
+
+h4 {
+color: #d8a1a6;
+}
+
+.fw-bold {
+	font-size: bold;
 }
 
 .lead {
@@ -34,18 +46,18 @@ a {
 	text-align: center;
 }
 .card-text {
-	color: #525A70 !important;
+	color: #525a70 !important;
 }
 
 /*carousel*/
 span {
-	color: #525A70 !important;
+	color: #525a70 !important;
 }
 .carousel-control-next-icon {
-	color: #525A70 !important;
+	color: #525a70 !important;
 }
 .carousel-control-prev-icon {
-	color: #525A70 !important;
+	color: #525a70 !important;
 }
 .dropdown-toggle {
 	font-family: Raleway; 
@@ -56,11 +68,11 @@ span {
 /*navigation*/
 .navbar {
 	background-color: #fffcf8;
-	color: #525A70;
+	color: #525a70;
 }
 
 .nav-item {
-	color: #525A70;
+	color: #525a70;
 }
 .nav-item:active {
 	color: #525A70;	
@@ -69,16 +81,16 @@ span {
 /*button regular*/
 .btn:hover {
 	background-color: #d8a1a6 !important;
-	color: #fffcf8;
+	color: #fffcf8 !important;
 	opacity: .5;
 }
 .btn {
 	background-color: #d8a1a6 !important;
-	color: #fffcf8;
+	color: #fffcf8 !important;
 }
 .btn:visited {
 	background-color: #d8a1a6 !important;
-	color: #fffcf8;
+	color: #fffcf8 !important;
 	opacity: .5;
 }
 /*button 1*/
@@ -137,4 +149,5 @@ span {
 
 footer a:hover {
 	opacity: .5;
+}.fw-vold {
 }

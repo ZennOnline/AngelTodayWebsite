@@ -11,14 +11,14 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	background-color: #7E8BAB;
+	background-color: #7d8aab;
 }
 
 /* Changing the background color for the navigation bar */
 
 .card-title {
 	font-family: Raleway;
-	color: #D9A2A7;
+	color: #d8a1a6;
 	text-align: center;
 }
 
@@ -30,57 +30,57 @@ header {
 
 
 .btn:hover {
-	background-color: #7E8BAB !important;
+	background-color: #7d8aab !important;
 	color: #fffcf8;
 	opacity: .5;
 }
 
 .btn {
-	background-color: #D9A2A7;
+	background-color: #d8a1a6;
 	color: #fffcf8;
 }
 
 .btn:visited {
-	background-color: #7E8BAB;
+	background-color: #7d8aab;
 	color: #fffcf8;
 	opacity: .5;
 }
 
 .btn1:hover {
-	background-color: #D9A2A7 !important;
+	background-color: #d8a1a6 !important;
 	color: #fffcf8;
 	opacity: .5;
 }
 
 .btn1 {
-	background-color: #D9A2A7;
+	background-color: #d8a1a6;
 	border-color: transparent;
 	color: #fffcf8;
 }
 
 .btn1:visited {
-	background-color: #D9A2A7;
+	background-color: #d8a1a6;
 	color: #fffcf8;
-	border-color: #D9A2A7;
+	border-color: #d8a1a6;
 	opacity: .5;
 }
 
 .btn2:hover {
-	background-color: #7E8BAB !important;
+	background-color: #7d8aab !important;
 	color: #fffcf8;
 	opacity: .5;
 }
 
 .btn2 {
-	background-color: #7E8BAB;
+	background-color: #7d8aab;
 	border-color: transparent;
 	color: #fffcf8;
 }
 
 .btn2:visited {
-	background-color: #7E8BAB;
+	background-color: #7d8aab;
 	color: #fffcf8;
-	border-color: #7E8BAB;
+	border-color: #7d8aab;
 	opacity: .5;
 }
 

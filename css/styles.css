@@ -14,101 +14,126 @@ header {
 	background-color: #7d8aab;
 }
 
-/* Changing the background color for the navigation bar */
+p {
+	background-color: transparent;
+	color: #525A70;
+}
 
+a {
+	color: #525A70;
+}
+
+.lead {
+	color: #fffcf8;
+}
+
+/*card text*/
 .card-title {
 	font-family: Raleway;
 	color: #d8a1a6;
 	text-align: center;
 }
+.card-text {
+	color: #525A70 !important;
+}
 
+/*carousel*/
+span {
+	color: #525A70 !important;
+}
+.carousel-control-next-icon {
+	color: #525A70 !important;
+}
+.carousel-control-prev-icon {
+	color: #525A70 !important;
+}
+.dropdown-toggle {
+	font-family: Raleway; 
+	border-color: transparent;
+	backgound-color: transparent; 
+}
+
+/*navigation*/
 .navbar {
 	background-color: #fffcf8;
+	color: #525A70;
 }
 
-/* Effect on social media buttons */
+.nav-item {
+	color: #525A70;
+}
+.nav-item:active {
+	color: #525A70;	
+}
 
-
+/*button regular*/
 .btn:hover {
-	background-color: #7d8aab !important;
-	color: #fffcf8;
-	opacity: .5;
-}
-
-.btn {
-	background-color: #d8a1a6;
-	color: #fffcf8;
-}
-
-.btn:visited {
-	background-color: #7d8aab;
-	color: #fffcf8;
-	opacity: .5;
-}
-
-.btn1:hover {
 	background-color: #d8a1a6 !important;
 	color: #fffcf8;
 	opacity: .5;
 }
-
+.btn {
+	background-color: #d8a1a6 !important;
+	color: #fffcf8;
+}
+.btn:visited {
+	background-color: #d8a1a6 !important;
+	color: #fffcf8;
+	opacity: .5;
+}
+/*button 1*/
+.btn1:hover {
+	background-color: #d8a1a6;
+	color: #fffcf8;
+	opacity: .5;
+}
 .btn1 {
 	background-color: #d8a1a6;
 	border-color: transparent;
 	color: #fffcf8;
 }
-
 .btn1:visited {
-	background-color: #d8a1a6;
+	background-color: #d8a1a6 !important;
 	color: #fffcf8;
 	border-color: #d8a1a6;
 	opacity: .5;
 }
-
+/*button 2*/
 .btn2:hover {
 	background-color: #7d8aab !important;
 	color: #fffcf8;
 	opacity: .5;
 }
-
 .btn2 {
 	background-color: #7d8aab;
 	border-color: transparent;
 	color: #fffcf8;
 }
-
 .btn2:visited {
-	background-color: #7d8aab;
+	background-color: #7d8aab !important;
 	color: #fffcf8;
 	border-color: #7d8aab;
 	opacity: .5;
 }
-
+/*button 3*/
 .btn3:hover {
+	background-color: #fffcf8;
+	color: #444444;
+	border-color: #444444;
+	opacity: .5;
+}
+.btn3 {
+	background-color: #fffcf8;
+	border-color: #444444;
+	color: #444444;
+}
+.btn3:visited {
 	background-color: #fffcf8 !important;
 	color: #444444;
 	border-color: #444444;
 	opacity: .5;
 }
 
-.btn3 {
-	background-color: #fffcf8;
-	border-color: #444444;
-	color: #444444;
-}
-
-.btn3:visited {
-	background-color: #fffcf8;
-	color: #444444;
-	border-color: #444444;
-	opacity: .5;
-}
-
-.dropdown-toggle {
-	font-family: Raleway; 
-	border-color: transparent;
-	backgound-color: transparent; 
-}
 
 footer a:hover {
 	opacity: .5;

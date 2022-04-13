@@ -31,6 +31,16 @@ h4 {
 color: #d8a1a6;
 }
 
+.card mb-3 {
+	align-content: center !important;
+}
+
+.center {
+margin: auto;
+width: 100%;
+padding: 10px;
+}
+
 .fw-bold {
 	font-size: bold;
 }
@@ -149,4 +159,6 @@ span {
 footer a:hover {
 	opacity: .5;
 }.fw-vold {
+}
+.card-text-end {
 }

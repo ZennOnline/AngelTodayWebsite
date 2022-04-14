@@ -5,7 +5,7 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
+	font-family: "Neue Einstellung Normal";
 	background-color: #fffcf8;
 }
 /* Changing the background colour for the header */
@@ -70,7 +70,7 @@ padding: 10px;
 
 /*card text*/
 .card-title {
-	font-family: Raleway;
+	font-family: "Neue Einstellung Normal";
 	color: #d8a1a6;
 	text-align: center;
 }
@@ -89,7 +89,7 @@ span {
 	color: #525a70 !important;
 }
 .dropdown-toggle {
-	font-family: Raleway; 
+	font-family: "Neue Einstellung Normal"; 
 	border-color: transparent;
 	backgound-color: transparent; 
 }

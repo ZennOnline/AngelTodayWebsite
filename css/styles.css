@@ -21,14 +21,29 @@ p {
 
 a {
 	color: #525A70 !important;
+	font-family: "Montserrat" !important;
+}
+
+h1 {
+	font-family: "Montserrat" !important;
 }
 
 h2 {
 	color: #d8a1a6;
+	font-family: "Montserrat" !important;
 }
 
 h4 {
 color: #d8a1a6;
+font-family: "Montserrat" !important;
+}
+
+h5 {
+	font-family: "Montserrat" !important;
+}
+
+p {
+	font-family: "Neue Einstellung Normal" !important;
 }
 
 .header1 {
